@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "author": "Aluno",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo", "top": -100, "left": 200, "attrs": {} },
+    { "type": "wokwi-analog-joystick", "id": "joystick", "top": 100, "left": 200, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP15", "servo:PWM", "green", [ "v0" ] ],
+    [ "pico:GND", "servo:GND", "black", [ "v0" ] ],
+    [ "pico:3V3", "servo:V+", "red", [ "v0" ] ],
+    [ "pico:GP26", "joystick:HORZ", "blue", [ "v0" ] ],
+    [ "pico:GND", "joystick:GND", "black", [ "v0" ] ],
+    [ "pico:3V3", "joystick:VCC", "red", [ "v0" ] ]
+  ]
+}

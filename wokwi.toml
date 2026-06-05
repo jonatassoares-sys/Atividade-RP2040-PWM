@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/Pratica_RP2040.elf"
+elf = "build/Pratica_RP2040.elf"
