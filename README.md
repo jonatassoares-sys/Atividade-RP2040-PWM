@@ -26,7 +26,7 @@ O sistema opera através do mapeamento em tempo real entre o periférico de entr
 
 ## Organização da Equipe
 
-* **Líder de Projeto:** [JÔNATAS DE SOUSA SOARES DA CRUZ] — Responsável pelo gerenciamento e estruturação do repositório GitHub, revisão dos commits, configuração do ambiente integrado VS Code/Wokwi e desenvolvimento do algoritmo principal de controle de PWM para o servomotor[cite: 1].
+* **Líder de Projeto:** [JÔNATAS DE SOUSA SOARES DA CRUZ] — Responsável pelo gerenciamento e estruturação do repositório GitHub, revisão dos commits, configuração do ambiente integrado VS Code/Wokwi e desenvolvimento do algoritmo principal de controle de PWM para o servomotor.
 * **Desenvolvedor 1:** [NATAN ÉDER VALERIANO] — Responsável pela implementação da rotina de leitura do Conversor Analógico-Digital (ADC) para o joystick, calibração matemática das faixas de pulso síncronas de 50 Hz e testes de validação dos ângulos do motor.
 
 
