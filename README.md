@@ -24,6 +24,12 @@ O sistema opera através do mapeamento em tempo real entre o periférico de entr
 ## Como Executar
 1. Clone este repositório:
 
+## Organização da Equipe
+
+* **Líder de Projeto:** [JÔNATAS DE SOUSA SOARES DA CRUZ] — Responsável pelo gerenciamento e estruturação do repositório GitHub, revisão dos commits, configuração do ambiente integrado VS Code/Wokwi e desenvolvimento do algoritmo principal de controle de PWM para o servomotor[cite: 1].
+* **Desenvolvedor 1:** [NATAN ÉDER VALERIANO] — Responsável pela implementação da rotina de leitura do Conversor Analógico-Digital (ADC) para o joystick, calibração matemática das faixas de pulso síncronas de 50 Hz e testes de validação dos ângulos do motor.
+
+
 ## Demonstração em Vídeo
 
 Conforme os requisitos estabelecidos nas orientações da atividade, foi produzido um vídeo ensaio com duração máxima de 5 minutos. O material audiovisual aborda de forma detalhada a arquitetura do código fonte desenvolvido em C, a validação dos cálculos matemáticos aplicados ao ciclo de trabalho do PWM para atingir a frequência de 50 Hz, e a comprovação prática dos testes de movimentação do servomotor através do joystick.
